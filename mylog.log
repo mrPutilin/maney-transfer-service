@@ -1,0 +1,39 @@
+17.07.2023 13:26:29.916 [Test worker] INFO   o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.putilin.moneytransferservice.MoneyTransferServiceApplicationTests]: MoneyTransferServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17.07.2023 13:26:30.100 [Test worker] INFO   o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.putilin.moneytransferservice.MoneyTransferServiceApplication for test class ru.putilin.moneytransferservice.MoneyTransferServiceApplicationTests
+17.07.2023 13:26:30.602 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+17.07.2023 13:26:30.639 [Test worker] INFO   r.p.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.7 with PID 75590 (started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+17.07.2023 13:26:30.640 [Test worker] INFO   r.p.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+17.07.2023 13:26:33.322 [Test worker] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+17.07.2023 13:26:33.404 [Test worker] INFO   r.p.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.15 seconds (process running for 5.29)
+17.07.2023 13:26:34.053 [Test worker] INFO   o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.putilin.moneytransferservice.ServiceIntegrationTest]: ServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17.07.2023 13:26:34.064 [Test worker] INFO   o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.putilin.moneytransferservice.MoneyTransferServiceApplication for test class ru.putilin.moneytransferservice.ServiceIntegrationTest
+17.07.2023 13:26:34.127 [Test worker] INFO   o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+17.07.2023 13:26:35.055 [Test worker] INFO   o.t.d.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+17.07.2023 13:26:35.061 [Test worker] INFO   o.t.DockerClientFactory - Docker host IP address is localhost
+17.07.2023 13:26:35.118 [Test worker] INFO   o.t.DockerClientFactory - Connected to docker: 
+  Server Version: 20.10.23
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 7851 MB
+17.07.2023 13:26:35.121 [Test worker] INFO   o.t.u.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+17.07.2023 13:26:36.695 [Test worker] INFO   o.t.u.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
+17.07.2023 13:26:37.435 [Test worker] INFO   o.t.DockerClientFactory - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+17.07.2023 13:26:37.437 [Test worker] INFO   o.t.DockerClientFactory - Checking the system...
+17.07.2023 13:26:37.438 [Test worker] INFO   o.t.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+17.07.2023 13:26:37.554 [Test worker] INFO   o.t.DockerClientFactory - ✔︎ Docker environment should have more than 2GB free disk space
+17.07.2023 13:26:37.587 [Test worker] INFO   🐳 [transferapp:latest] - Creating container for image: transferapp:latest
+17.07.2023 13:26:37.625 [Test worker] INFO   🐳 [transferapp:latest] - Starting container with ID: e7c560cd67e830469f51537e60c0810eb218060d132fa052633f674f990d6ba6
+17.07.2023 13:26:37.795 [Test worker] INFO   🐳 [transferapp:latest] - Container transferapp:latest is starting: e7c560cd67e830469f51537e60c0810eb218060d132fa052633f674f990d6ba6
+17.07.2023 13:26:40.077 [Test worker] INFO   🐳 [transferapp:latest] - Container transferapp:latest started in PT2.521982S
+17.07.2023 13:26:40.227 [Test worker] INFO   r.p.m.ServiceIntegrationTest - Starting ServiceIntegrationTest using Java 17.0.7 with PID 75590 (started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+17.07.2023 13:26:40.228 [Test worker] INFO   r.p.m.ServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
+17.07.2023 13:26:41.133 [Test worker] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+17.07.2023 13:26:41.147 [Test worker] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+17.07.2023 13:26:41.150 [Test worker] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+17.07.2023 13:26:41.151 [Test worker] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+17.07.2023 13:26:41.250 [Test worker] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17.07.2023 13:26:41.250 [Test worker] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1014 ms
+17.07.2023 13:26:41.585 [Test worker] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+17.07.2023 13:26:41.614 [Test worker] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+17.07.2023 13:26:41.626 [Test worker] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 52875 (http) with context path ''
+17.07.2023 13:26:41.642 [Test worker] INFO   r.p.m.ServiceIntegrationTest - Started ServiceIntegrationTest in 1.521 seconds (process running for 13.528)
