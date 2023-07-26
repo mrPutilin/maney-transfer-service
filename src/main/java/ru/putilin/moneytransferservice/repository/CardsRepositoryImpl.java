@@ -15,8 +15,9 @@ public class CardsRepositoryImpl implements CardRepository {
     protected Map<String, Card> store = new HashMap<>();
 
     {
-        store.put("1111222233334444", new Card("1111222233334444", "11/23", "345", new Amount(1000, "rub")));
-        store.put("1234567812345678", new Card("1234567812345678", "11/23", "782", new Amount(2000, "rub")));
+        store.put("1111222233334444", new Card("1111222233334444", "11/23", "345", new Amount(1000, "RUR")));
+
+        store.put("1234567812345678", new Card("1234567812345678", "11/23", "782", new Amount(2000, "RUR")));
     }
 
     public CardsRepositoryImpl() {

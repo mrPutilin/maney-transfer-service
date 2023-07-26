@@ -1,36 +1,28 @@
 package ru.putilin.moneytransferservice.model;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
-
 import java.util.Objects;
 
 public class Operation {
 
-    @Size(min = 16, max = 16)
     private String cardFromNumber;
 
-    @Size(min = 4, max = 4)
-    private String validTill;
+    private String cardFromValidTill;
 
 
-    @Size(min = 3, max = 3)
-    private String cvv;
+    private String cardFromCVV;
 
-    @Size(min = 16, max = 16)
     private String cardToNumber;
 
 
-    @NotBlank
     private Amount amount;
 
     public Operation() {
     }
 
-    public Operation(String cardFromNumber, String validTill, String cvv, String cardToNumber, Amount amount) {
+    public Operation(String cardFromNumber, String cardFromValidTill, String cardFromCVV, String cardToNumber, Amount amount) {
         this.cardFromNumber = cardFromNumber;
-        this.validTill = validTill;
-        this.cvv = cvv;
+        this.cardFromValidTill = cardFromValidTill;
+        this.cardFromCVV = cardFromCVV;
         this.cardToNumber = cardToNumber;
         this.amount = amount;
     }
@@ -43,20 +35,20 @@ public class Operation {
         this.cardFromNumber = cardFromNumber;
     }
 
-    public String getValidTill() {
-        return validTill;
+    public String getCardFromValidTill() {
+        return cardFromValidTill;
     }
 
-    public void setValidTill(String validTill) {
-        this.validTill = validTill;
+    public void setValidTill(String cardFromValidTill) {
+        this.cardFromValidTill = cardFromValidTill;
     }
 
-    public String getCvv() {
-        return cvv;
+    public String getCardFromCVV() {
+        return cardFromCVV;
     }
 
-    public void setCvv(String cvv) {
-        this.cvv = cvv;
+    public void setCvv(String cardFromCVV) {
+        this.cardFromCVV = cardFromCVV;
     }
 
     public String getCardToNumber() {
@@ -79,8 +71,8 @@ public class Operation {
     public String toString() {
         return "Operation{" +
                 "cardFromNumber='" + cardFromNumber + '\'' +
-                ", validTill='" + validTill + '\'' +
-                ", cvv='" + cvv + '\'' +
+                ", validTill='" + cardFromValidTill + '\'' +
+                ", cvv='" + cardFromCVV + '\'' +
                 ", cardToNumber='" + cardToNumber + '\'' +
                 ", amount=" + amount +
                 '}';
@@ -91,11 +83,11 @@ public class Operation {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Operation operation = (Operation) o;
-        return Objects.equals(cardFromNumber, operation.cardFromNumber) && Objects.equals(validTill, operation.validTill) && Objects.equals(cvv, operation.cvv) && Objects.equals(cardToNumber, operation.cardToNumber) && Objects.equals(amount, operation.amount);
+        return Objects.equals(cardFromNumber, operation.cardFromNumber) && Objects.equals(cardFromValidTill, operation.cardFromValidTill) && Objects.equals(cardFromCVV, operation.cardFromCVV) && Objects.equals(cardToNumber, operation.cardToNumber) && Objects.equals(amount, operation.amount);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(cardFromNumber, validTill, cvv, cardToNumber, amount);
+        return Objects.hash(cardFromNumber, cardFromValidTill, cardFromCVV, cardToNumber, amount);
     }
 }

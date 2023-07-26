@@ -4,11 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import ru.putilin.moneytransferservice.advice.ErrorInputData;
-import ru.putilin.moneytransferservice.model.Amount;
-import ru.putilin.moneytransferservice.model.ConfirmOperation;
-import ru.putilin.moneytransferservice.model.SuccessConfirmation;
-import ru.putilin.moneytransferservice.model.SuccessOperation;
-import ru.putilin.moneytransferservice.model.Operation;
+import ru.putilin.moneytransferservice.model.*;
 import ru.putilin.moneytransferservice.repository.CardsRepositoryImpl;
 import ru.putilin.moneytransferservice.repository.TransferRepositoryImpl;
 
@@ -69,10 +65,13 @@ public class TransferService {
     }
 
     public void confirmCvvOrDateCard(Operation operation) {
-        boolean validCvv = Objects.equals(operation.getCvv(), cardsRepository.getStore().get(operation.getCardFromNumber()).getCvv());
-        boolean validDate = Objects.equals(operation.getValidTill(), cardsRepository.getStore().get(operation.getCardFromNumber()).getValidDate());
-        if (!validCvv || !validDate)
-            throw new ErrorInputData("Не верный код cvv или дата действия карты");
+        boolean validCvv = Objects.equals(operation.getCardFromCVV(), cardsRepository.getStore().get(operation.getCardFromNumber()).getCvv());
+        boolean validDate = Objects.equals(operation.getCardFromValidTill(), cardsRepository.getStore().get(operation.getCardFromNumber()).getValidDate());
+        if (!validCvv)
+            throw new ErrorInputData("Не верный код cvv");
+        if (!validDate) {
+            throw new ErrorInputData("Не верная дата действия карты");
+        }
 
     }
 

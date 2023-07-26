@@ -11,7 +11,7 @@ public class ConfirmOperation {
 
 
     @Size(min = 4, max = 4)
-    @Value("1111")
+    @Value("0000")
     private String code;
 
     @NotBlank
@@ -52,4 +52,6 @@ public class ConfirmOperation {
                 ", operationId='" + operationId + '\'' +
                 '}';
     }
+
+
 }

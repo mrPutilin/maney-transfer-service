@@ -3,6 +3,7 @@ package ru.putilin.moneytransferservice.model;
 import java.util.Objects;
 
 public class Amount {
+
     private int value;
     private String currency;
 

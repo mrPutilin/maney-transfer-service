@@ -1,39 +1,1146 @@
-17.07.2023 13:26:29.916 [Test worker] INFO   o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.putilin.moneytransferservice.MoneyTransferServiceApplicationTests]: MoneyTransferServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17.07.2023 13:26:30.100 [Test worker] INFO   o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.putilin.moneytransferservice.MoneyTransferServiceApplication for test class ru.putilin.moneytransferservice.MoneyTransferServiceApplicationTests
-17.07.2023 13:26:30.602 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
-17.07.2023 13:26:30.639 [Test worker] INFO   r.p.m.MoneyTransferServiceApplicationTests - Starting MoneyTransferServiceApplicationTests using Java 17.0.7 with PID 75590 (started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
-17.07.2023 13:26:30.640 [Test worker] INFO   r.p.m.MoneyTransferServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
-17.07.2023 13:26:33.322 [Test worker] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
-17.07.2023 13:26:33.404 [Test worker] INFO   r.p.m.MoneyTransferServiceApplicationTests - Started MoneyTransferServiceApplicationTests in 3.15 seconds (process running for 5.29)
-17.07.2023 13:26:34.053 [Test worker] INFO   o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.putilin.moneytransferservice.ServiceIntegrationTest]: ServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17.07.2023 13:26:34.064 [Test worker] INFO   o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.putilin.moneytransferservice.MoneyTransferServiceApplication for test class ru.putilin.moneytransferservice.ServiceIntegrationTest
-17.07.2023 13:26:34.127 [Test worker] INFO   o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
-17.07.2023 13:26:35.055 [Test worker] INFO   o.t.d.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
-17.07.2023 13:26:35.061 [Test worker] INFO   o.t.DockerClientFactory - Docker host IP address is localhost
-17.07.2023 13:26:35.118 [Test worker] INFO   o.t.DockerClientFactory - Connected to docker: 
-  Server Version: 20.10.23
-  API Version: 1.41
-  Operating System: Docker Desktop
-  Total Memory: 7851 MB
-17.07.2023 13:26:35.121 [Test worker] INFO   o.t.u.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
-17.07.2023 13:26:36.695 [Test worker] INFO   o.t.u.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for index.docker.io
-17.07.2023 13:26:37.435 [Test worker] INFO   o.t.DockerClientFactory - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
-17.07.2023 13:26:37.437 [Test worker] INFO   o.t.DockerClientFactory - Checking the system...
-17.07.2023 13:26:37.438 [Test worker] INFO   o.t.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
-17.07.2023 13:26:37.554 [Test worker] INFO   o.t.DockerClientFactory - ✔︎ Docker environment should have more than 2GB free disk space
-17.07.2023 13:26:37.587 [Test worker] INFO   🐳 [transferapp:latest] - Creating container for image: transferapp:latest
-17.07.2023 13:26:37.625 [Test worker] INFO   🐳 [transferapp:latest] - Starting container with ID: e7c560cd67e830469f51537e60c0810eb218060d132fa052633f674f990d6ba6
-17.07.2023 13:26:37.795 [Test worker] INFO   🐳 [transferapp:latest] - Container transferapp:latest is starting: e7c560cd67e830469f51537e60c0810eb218060d132fa052633f674f990d6ba6
-17.07.2023 13:26:40.077 [Test worker] INFO   🐳 [transferapp:latest] - Container transferapp:latest started in PT2.521982S
-17.07.2023 13:26:40.227 [Test worker] INFO   r.p.m.ServiceIntegrationTest - Starting ServiceIntegrationTest using Java 17.0.7 with PID 75590 (started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
-17.07.2023 13:26:40.228 [Test worker] INFO   r.p.m.ServiceIntegrationTest - No active profile set, falling back to 1 default profile: "default"
-17.07.2023 13:26:41.133 [Test worker] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 0 (http)
-17.07.2023 13:26:41.147 [Test worker] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
-17.07.2023 13:26:41.150 [Test worker] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
-17.07.2023 13:26:41.151 [Test worker] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
-17.07.2023 13:26:41.250 [Test worker] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-17.07.2023 13:26:41.250 [Test worker] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1014 ms
-17.07.2023 13:26:41.585 [Test worker] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
-17.07.2023 13:26:41.614 [Test worker] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
-17.07.2023 13:26:41.626 [Test worker] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 52875 (http) with context path ''
-17.07.2023 13:26:41.642 [Test worker] INFO   r.p.m.ServiceIntegrationTest - Started ServiceIntegrationTest in 1.521 seconds (process running for 13.528)
+25.07.2023 16:31:49.682 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 16:31:49.749 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 71716 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 16:31:49.750 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 16:31:51.141 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 16:31:51.149 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 16:31:51.150 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 16:31:51.151 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 16:31:51.233 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 16:31:51.235 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1415 ms
+25.07.2023 16:31:51.800 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 16:31:51.844 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 16:31:51.857 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 16:31:51.877 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.529 seconds (process running for 3.487)
+25.07.2023 16:31:52.045 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 16:31:52.047 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 16:31:52.051 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+25.07.2023 16:34:58.447 [http-nio-5500-exec-6] INFO   r.p.m.s.TransferService - Успешно проведена операция перевода:  С карты 1111222233334444  На карту 1234567812345678 Сумма операции Amount{value=100, currency='RUR'} Комиссия составила 1
+25.07.2023 16:38:11.401 [http-nio-5500-exec-10] WARN   o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+25.07.2023 17:08:01.746 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:08:01.808 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 73868 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:08:01.810 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:08:03.195 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:08:03.203 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:08:03.204 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:08:03.204 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:08:03.286 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:08:03.286 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1423 ms
+25.07.2023 17:08:03.859 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:08:03.904 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:08:03.915 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:08:03.932 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.544 seconds (process running for 3.508)
+25.07.2023 17:08:04.446 [RMI TCP Connection(1)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:08:04.448 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:08:04.452 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+25.07.2023 17:10:30.231 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:10:30.298 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 74016 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:10:30.303 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:10:31.665 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:10:31.673 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:10:31.674 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:10:31.674 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:10:31.749 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:10:31.749 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1394 ms
+25.07.2023 17:10:32.330 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:10:32.383 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:10:32.392 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:10:32.409 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.514 seconds (process running for 3.416)
+25.07.2023 17:10:33.014 [RMI TCP Connection(1)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:10:33.016 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:10:33.022 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+25.07.2023 17:14:29.942 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:14:30.002 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 74261 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:14:30.004 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:14:31.386 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:14:31.395 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:14:31.395 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:14:31.395 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:14:31.470 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:14:31.471 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+25.07.2023 17:14:32.104 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:14:32.154 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:14:32.165 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:14:32.185 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.608 seconds (process running for 3.544)
+25.07.2023 17:14:32.668 [RMI TCP Connection(1)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:14:32.694 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:14:32.710 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 12 ms
+25.07.2023 17:18:02.919 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:18:02.981 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 74471 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:18:02.986 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:18:03.157 [main] WARN   o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main/ru/putilin/moneytransferservice/controller/TransferController.class]
+25.07.2023 17:18:03.248 [main] ERROR  o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main/ru/putilin/moneytransferservice/controller/TransferController.class]
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:463)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:317)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:276)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at ru.putilin.moneytransferservice.MoneyTransferServiceApplication.main(MoneyTransferServiceApplication.java:11)
+Caused by: org.springframework.core.annotation.AnnotationConfigurationException: Different @AliasFor mirror values for annotation [org.springframework.web.bind.annotation.CrossOrigin] declared on ru.putilin.moneytransferservice.controller.TransferController; attribute 'origins' and its alias 'value' are declared with values of [{http://localhost:5500}] and [{https://serp-ya.github.io/card-transfer}].
+	at org.springframework.core.annotation.AnnotationTypeMapping$MirrorSets$MirrorSet.resolve(AnnotationTypeMapping.java:772)
+	at org.springframework.core.annotation.AnnotationTypeMapping$MirrorSets.resolve(AnnotationTypeMapping.java:727)
+	at org.springframework.core.annotation.TypeMappedAnnotation.<init>(TypeMappedAnnotation.java:128)
+	at org.springframework.core.annotation.TypeMappedAnnotation.<init>(TypeMappedAnnotation.java:112)
+	at org.springframework.core.annotation.TypeMappedAnnotation.of(TypeMappedAnnotation.java:618)
+	at org.springframework.core.annotation.MergedAnnotation.of(MergedAnnotation.java:612)
+	at org.springframework.core.type.classreading.MergedAnnotationReadingVisitor.visitEnd(MergedAnnotationReadingVisitor.java:98)
+	at org.springframework.asm.ClassReader.readElementValues(ClassReader.java:3010)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:610)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:426)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:122)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435)
+	... 20 common frames omitted
+25.07.2023 17:18:56.727 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:18:56.786 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 74534 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:18:56.788 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:18:58.149 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:18:58.156 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:18:58.157 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:18:58.157 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:18:58.229 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:18:58.230 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1389 ms
+25.07.2023 17:18:58.836 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:18:58.886 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:18:58.897 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:18:58.916 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.548 seconds (process running for 3.498)
+25.07.2023 17:18:59.419 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:18:59.421 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:18:59.425 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+25.07.2023 17:19:33.471 [http-nio-5500-exec-4] INFO   r.p.m.s.TransferService - Успешно проведена операция перевода:  С карты 1111222233334444  На карту 1234567812345678 Сумма операции Amount{value=100, currency='RUR'} Комиссия составила 1
+25.07.2023 17:21:10.239 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:21:10.298 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 74668 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:21:10.299 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:21:11.631 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:21:11.640 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:21:11.641 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:21:11.641 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:21:11.713 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:21:11.714 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
+25.07.2023 17:21:12.288 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:21:12.344 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:21:12.353 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:21:12.368 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.496 seconds (process running for 3.432)
+25.07.2023 17:21:12.921 [RMI TCP Connection(3)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:21:12.923 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:21:12.930 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+25.07.2023 17:36:35.909 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:36:35.978 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 75565 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:36:35.985 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:36:37.369 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:36:37.377 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:36:37.377 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:36:37.377 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:36:37.456 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:36:37.457 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1420 ms
+25.07.2023 17:36:38.056 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:36:38.105 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:36:38.116 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:36:38.134 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.596 seconds (process running for 3.577)
+25.07.2023 17:36:38.537 [RMI TCP Connection(3)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:36:38.538 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:36:38.541 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+25.07.2023 17:38:27.989 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:38:28.054 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 75681 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:38:28.055 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:38:29.459 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:38:29.467 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:38:29.468 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:38:29.468 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:38:29.543 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:38:29.544 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1432 ms
+25.07.2023 17:38:30.126 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:38:30.176 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:38:30.188 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:38:30.206 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.55 seconds (process running for 3.442)
+25.07.2023 17:38:30.365 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:38:30.369 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:38:30.374 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+25.07.2023 17:44:03.329 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:44:03.390 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 76037 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:44:03.396 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:44:04.810 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:44:04.817 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:44:04.818 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:44:04.818 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:44:04.886 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:44:04.886 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1438 ms
+25.07.2023 17:44:05.471 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:44:05.520 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:44:05.532 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:44:05.554 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.595 seconds (process running for 3.621)
+25.07.2023 17:44:06.065 [RMI TCP Connection(3)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:44:06.067 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:44:06.105 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 32 ms
+25.07.2023 17:47:16.970 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:47:17.039 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 76233 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:47:17.041 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:47:18.501 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:47:18.508 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:47:18.509 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:47:18.509 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:47:18.593 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:47:18.594 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1496 ms
+25.07.2023 17:47:19.277 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:47:19.335 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:47:19.347 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:47:19.364 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.762 seconds (process running for 3.69)
+25.07.2023 17:47:19.835 [RMI TCP Connection(4)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:47:19.837 [RMI TCP Connection(4)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:47:19.846 [RMI TCP Connection(4)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+25.07.2023 17:48:42.971 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:48:43.029 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 76320 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:48:43.031 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:48:44.396 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:48:44.404 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:48:44.405 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:48:44.405 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:48:44.485 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:48:44.485 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1400 ms
+25.07.2023 17:48:45.077 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:48:45.118 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:48:45.128 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:48:45.146 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.542 seconds (process running for 3.482)
+25.07.2023 17:48:45.655 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:48:45.657 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:48:45.663 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+25.07.2023 17:50:06.888 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:50:06.948 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 76417 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:50:06.950 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:50:08.315 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:50:08.323 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:50:08.323 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:50:08.323 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:50:08.395 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:50:08.395 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1377 ms
+25.07.2023 17:50:08.968 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:50:09.014 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:50:09.025 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:50:09.044 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.468 seconds (process running for 3.409)
+25.07.2023 17:50:09.257 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:50:09.259 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:50:09.266 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+25.07.2023 17:52:28.091 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:52:28.149 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 76557 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:52:28.155 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:52:29.498 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:52:29.506 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:52:29.507 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:52:29.507 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:52:29.580 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:52:29.581 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1373 ms
+25.07.2023 17:52:30.154 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:52:30.205 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:52:30.215 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:52:30.233 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.488 seconds (process running for 3.414)
+25.07.2023 17:52:30.817 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:52:30.817 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:52:30.827 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 9 ms
+25.07.2023 17:54:51.215 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:54:51.283 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 76696 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:54:51.286 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:54:52.668 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:54:52.676 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:54:52.676 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:54:52.676 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:54:52.750 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:54:52.751 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1390 ms
+25.07.2023 17:54:53.338 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:54:53.384 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:54:53.393 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:54:53.413 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.547 seconds (process running for 3.553)
+25.07.2023 17:54:54.098 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:54:54.099 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:54:54.100 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+25.07.2023 17:56:35.469 [http-nio-5500-exec-5] INFO   r.p.m.s.TransferService - Успешно проведена операция перевода:  С карты 1111222233334444  На карту 1234567812345678 Сумма операции Amount{value=100, currency='RUR'} Комиссия составила 1
+25.07.2023 17:59:21.309 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 17:59:21.376 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 76984 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 17:59:21.378 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 17:59:22.759 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 17:59:22.766 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:59:22.767 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 17:59:22.767 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 17:59:22.841 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 17:59:22.842 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1409 ms
+25.07.2023 17:59:23.424 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 17:59:23.470 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 17:59:23.480 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 17:59:23.499 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.549 seconds (process running for 3.458)
+25.07.2023 17:59:24.079 [RMI TCP Connection(3)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 17:59:24.080 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 17:59:24.091 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 11 ms
+25.07.2023 18:00:55.413 [http-nio-5500-exec-3] INFO   r.p.m.s.TransferService - Успешно проведена операция перевода:  С карты 1111222233334444  На карту 1234567812345678 Сумма операции Amount{value=100, currency='RUR'} Комиссия составила 1
+25.07.2023 18:02:12.862 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:02:12.922 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 77154 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:02:12.927 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:02:14.290 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:02:14.297 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:02:14.298 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:02:14.298 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:02:14.372 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:02:14.373 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1394 ms
+25.07.2023 18:02:14.941 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:02:14.985 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:02:14.997 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:02:15.016 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.512 seconds (process running for 3.464)
+25.07.2023 18:02:15.535 [RMI TCP Connection(1)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:02:15.538 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:02:15.544 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+25.07.2023 18:03:25.043 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:03:25.103 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 77234 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:03:25.105 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:03:26.446 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:03:26.454 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:03:26.455 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:03:26.455 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:03:26.529 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:03:26.529 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1371 ms
+25.07.2023 18:03:27.110 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:03:27.157 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:03:27.167 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:03:27.184 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.495 seconds (process running for 3.415)
+25.07.2023 18:03:27.745 [RMI TCP Connection(1)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:03:27.747 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:03:27.754 [RMI TCP Connection(1)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+25.07.2023 18:04:01.073 [http-nio-5500-exec-2] INFO   r.p.m.s.TransferService - Успешно проведена операция перевода:  С карты 1111222233334444  На карту 1234567812345678 Сумма операции Amount{value=1000, currency='RUR'} Комиссия составила 10
+25.07.2023 18:14:46.266 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:14:46.326 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 77904 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:14:46.328 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:14:47.724 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:14:47.732 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:14:47.733 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:14:47.733 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:14:47.803 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:14:47.803 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1416 ms
+25.07.2023 18:14:48.399 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:14:48.447 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:14:48.458 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:14:48.476 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.522 seconds (process running for 3.456)
+25.07.2023 18:14:48.711 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:14:48.712 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:14:48.713 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+25.07.2023 18:15:29.855 [http-nio-5500-exec-2] INFO   r.p.m.s.TransferService - Успешно проведена операция перевода:  С карты 1111222233334444  На карту 1234567812345678 Сумма операции Amount{value=100, currency='RUR'} Комиссия составила 1
+25.07.2023 18:26:02.289 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:26:02.359 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 78588 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:26:02.360 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:26:03.727 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:26:03.735 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:26:03.736 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:26:03.736 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:26:03.812 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:26:03.813 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1392 ms
+25.07.2023 18:26:04.392 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:26:04.453 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:26:04.464 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:26:04.483 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.527 seconds (process running for 3.441)
+25.07.2023 18:26:05.118 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:26:05.120 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:26:05.124 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+25.07.2023 18:27:08.845 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:27:08.916 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 78655 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:27:08.922 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:27:10.283 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:27:10.290 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:27:10.291 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:27:10.291 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:27:10.364 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:27:10.365 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1396 ms
+25.07.2023 18:27:10.943 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:27:11.000 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:27:11.010 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:27:11.027 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.512 seconds (process running for 3.4)
+25.07.2023 18:27:11.660 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:27:11.662 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:27:11.696 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 30 ms
+25.07.2023 18:28:21.028 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:28:21.106 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 78745 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:28:21.107 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:28:22.634 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:28:22.642 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:28:22.643 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:28:22.643 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:28:22.720 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:28:22.721 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1546 ms
+25.07.2023 18:28:23.357 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:28:23.417 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:28:23.428 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:28:23.447 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.799 seconds (process running for 3.883)
+25.07.2023 18:28:24.003 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:28:24.010 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:28:24.013 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+25.07.2023 18:41:48.532 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:41:48.602 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 79582 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:41:48.604 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:41:50.004 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:41:50.013 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:41:50.014 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:41:50.014 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:41:50.094 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:41:50.094 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+25.07.2023 18:41:50.685 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:41:50.729 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:41:50.739 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:41:50.756 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.599 seconds (process running for 3.547)
+25.07.2023 18:41:51.237 [RMI TCP Connection(3)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:41:51.240 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:41:51.246 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+25.07.2023 18:41:56.700 [http-nio-5500-exec-1] ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25.07.2023 18:43:03.250 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:43:03.314 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 79659 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:43:03.320 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:43:04.766 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:43:04.775 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:43:04.776 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:43:04.776 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:43:04.849 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:43:04.850 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1475 ms
+25.07.2023 18:43:05.488 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:43:05.536 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:43:05.547 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:43:05.565 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.699 seconds (process running for 3.725)
+25.07.2023 18:43:05.953 [RMI TCP Connection(4)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:43:05.955 [RMI TCP Connection(4)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:43:05.966 [RMI TCP Connection(4)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 10 ms
+25.07.2023 18:48:45.045 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:48:45.106 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 80011 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:48:45.113 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:48:46.521 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:48:46.530 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:48:46.531 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:48:46.531 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:48:46.597 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:48:46.598 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1436 ms
+25.07.2023 18:48:47.190 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:48:47.237 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:48:47.249 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:48:47.268 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.582 seconds (process running for 3.507)
+25.07.2023 18:48:47.764 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:48:47.766 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:48:47.772 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+25.07.2023 18:48:56.583 [http-nio-5500-exec-2] ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25.07.2023 18:51:38.865 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:51:38.928 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 80202 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:51:38.931 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:51:40.392 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:51:40.401 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:51:40.402 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:51:40.402 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:51:40.489 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:51:40.489 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1491 ms
+25.07.2023 18:51:41.174 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:51:41.227 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:51:41.238 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:51:41.255 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.751 seconds (process running for 3.7)
+25.07.2023 18:51:41.543 [RMI TCP Connection(5)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:51:41.545 [RMI TCP Connection(5)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:51:41.550 [RMI TCP Connection(5)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+25.07.2023 18:51:51.671 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:51:51.731 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 80223 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:51:51.736 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:51:53.102 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:51:53.110 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:51:53.110 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:51:53.111 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:51:53.183 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:51:53.184 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1397 ms
+25.07.2023 18:51:53.767 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:51:53.819 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:51:53.836 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:51:53.866 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.559 seconds (process running for 3.47)
+25.07.2023 18:51:54.384 [RMI TCP Connection(3)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:51:54.386 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:51:54.391 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+25.07.2023 18:51:58.133 [http-nio-5500-exec-1] WARN   o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ru.putilin.moneytransferservice.model.SuccessOperation ru.putilin.moneytransferservice.controller.TransferController.transfer(ru.putilin.moneytransferservice.model.Operation): [Field error in object 'operation' on field 'cardFromValidTill': rejected value [11/23]; codes [Size.operation.cardFromValidTill,Size.cardFromValidTill,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [operation.cardFromValidTill,cardFromValidTill]; arguments []; default message [cardFromValidTill],4,4]; default message [размер должен находиться в диапазоне от 4 до 4]] ]
+25.07.2023 18:54:06.230 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:54:06.292 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 80363 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:54:06.293 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:54:07.683 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:54:07.691 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:54:07.692 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:54:07.692 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:54:07.768 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:54:07.768 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1421 ms
+25.07.2023 18:54:08.361 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:54:08.408 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:54:08.419 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:54:08.437 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.543 seconds (process running for 3.46)
+25.07.2023 18:54:08.725 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:54:08.727 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:54:08.729 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+25.07.2023 18:54:12.746 [http-nio-5500-exec-2] WARN   o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ru.putilin.moneytransferservice.model.SuccessOperation ru.putilin.moneytransferservice.controller.TransferController.transfer(ru.putilin.moneytransferservice.model.Operation): [Field error in object 'operation' on field 'cardFromValidTill': rejected value [11/23]; codes [Size.operation.cardFromValidTill,Size.cardFromValidTill,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [operation.cardFromValidTill,cardFromValidTill]; arguments []; default message [cardFromValidTill],4,4]; default message [размер должен находиться в диапазоне от 4 до 4]] ]
+25.07.2023 18:58:13.233 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 18:58:13.304 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 80622 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 18:58:13.306 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 18:58:14.761 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 18:58:14.768 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:58:14.769 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 18:58:14.770 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 18:58:14.850 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 18:58:14.850 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1476 ms
+25.07.2023 18:58:15.451 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 18:58:15.510 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 18:58:15.521 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 18:58:15.537 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.682 seconds (process running for 3.674)
+25.07.2023 18:58:16.159 [RMI TCP Connection(3)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 18:58:16.162 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 18:58:16.169 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 5 ms
+25.07.2023 18:58:21.495 [http-nio-5500-exec-1] WARN   o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public ru.putilin.moneytransferservice.model.SuccessOperation ru.putilin.moneytransferservice.controller.TransferController.transfer(ru.putilin.moneytransferservice.model.Operation): [Field error in object 'operation' on field 'cardFromValidTill': rejected value [11/23]; codes [Size.operation.cardFromValidTill,Size.cardFromValidTill,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [operation.cardFromValidTill,cardFromValidTill]; arguments []; default message [cardFromValidTill],4,4]; default message [размер должен находиться в диапазоне от 4 до 4]] ]
+25.07.2023 19:03:47.649 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 19:03:47.715 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 80950 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 19:03:47.716 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 19:03:49.139 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 19:03:49.149 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:03:49.149 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 19:03:49.149 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 19:03:49.220 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 19:03:49.220 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1449 ms
+25.07.2023 19:03:49.798 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 19:03:49.844 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:03:49.856 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 19:03:49.873 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.582 seconds (process running for 3.535)
+25.07.2023 19:03:50.118 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 19:03:50.120 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 19:03:50.127 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 7 ms
+25.07.2023 19:03:53.293 [http-nio-5500-exec-4] ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25.07.2023 19:04:01.056 [http-nio-5500-exec-2] ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25.07.2023 19:05:47.660 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 19:05:47.732 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 81074 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 19:05:47.734 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 19:05:49.166 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 19:05:49.173 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:05:49.174 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 19:05:49.174 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 19:05:49.248 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 19:05:49.248 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1433 ms
+25.07.2023 19:05:49.844 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 19:05:49.897 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:05:49.908 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 19:05:49.926 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.638 seconds (process running for 3.684)
+25.07.2023 19:05:50.532 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 19:05:50.533 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 19:05:50.539 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 6 ms
+25.07.2023 19:05:53.839 [http-nio-5500-exec-2] ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25.07.2023 19:05:57.405 [http-nio-5500-exec-3] ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25.07.2023 19:06:15.026 [http-nio-5500-exec-6] ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.NotBlank' validating type 'ru.putilin.moneytransferservice.model.Amount'. Check configuration for 'amount'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25.07.2023 19:06:47.476 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 19:06:47.537 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 81151 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 19:06:47.539 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 19:06:48.940 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 19:06:48.949 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:06:48.950 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 19:06:48.951 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 19:06:49.029 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 19:06:49.029 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+25.07.2023 19:06:49.627 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 19:06:49.677 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:06:49.688 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 19:06:49.707 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.572 seconds (process running for 3.488)
+25.07.2023 19:06:49.915 [RMI TCP Connection(2)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 19:06:49.917 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 19:06:49.923 [RMI TCP Connection(2)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+25.07.2023 19:06:54.895 [http-nio-5500-exec-1] ERROR  o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.Size' validating type 'java.lang.Integer'. Check configuration for 'amount.value'] with root cause
+jakarta.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'jakarta.validation.constraints.Size' validating type 'java.lang.Integer'. Check configuration for 'amount.value'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:58)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateCascadedAnnotatedObjectForCurrentGroup(ValidatorImpl.java:629)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateCascadedConstraints(ValidatorImpl.java:590)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:409)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:104)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:932)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:248)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:142)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:563)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:631)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+25.07.2023 19:15:52.108 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 19:15:52.177 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 81705 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 19:15:52.179 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 19:15:53.588 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 19:15:53.597 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:15:53.600 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 19:15:53.601 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 19:15:53.686 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 19:15:53.686 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1449 ms
+25.07.2023 19:15:54.315 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 19:15:54.367 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:15:54.379 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 19:15:54.397 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.661 seconds (process running for 3.625)
+25.07.2023 19:15:54.785 [RMI TCP Connection(4)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 19:15:54.787 [RMI TCP Connection(4)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 19:15:54.791 [RMI TCP Connection(4)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 3 ms
+25.07.2023 19:16:11.064 [http-nio-5500-exec-6] INFO   r.p.m.s.TransferService - Успешно проведена операция перевода:  С карты 1111222233334444  На карту 1234567812345678 Сумма операции Amount{value=100, currency='RUR'} Комиссия составила 1
+25.07.2023 19:19:08.189 [background-preinit] INFO   o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+25.07.2023 19:19:08.249 [main] INFO   r.p.m.MoneyTransferServiceApplication - Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 81901 (/Users/evgenijputilin/Desktop/netologyProject/money-transfer-service/build/classes/java/main started by evgenijputilin in /Users/evgenijputilin/Desktop/netologyProject/money-transfer-service)
+25.07.2023 19:19:08.255 [main] INFO   r.p.m.MoneyTransferServiceApplication - No active profile set, falling back to 1 default profile: "default"
+25.07.2023 19:19:09.742 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+25.07.2023 19:19:09.753 [main] INFO   o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:19:09.754 [main] INFO   o.a.c.c.StandardService - Starting service [Tomcat]
+25.07.2023 19:19:09.754 [main] INFO   o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+25.07.2023 19:19:09.845 [main] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+25.07.2023 19:19:09.846 [main] INFO   o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1538 ms
+25.07.2023 19:19:10.488 [main] INFO   o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+25.07.2023 19:19:10.536 [main] INFO   o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5500"]
+25.07.2023 19:19:10.547 [main] INFO   o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+25.07.2023 19:19:10.565 [main] INFO   r.p.m.MoneyTransferServiceApplication - Started MoneyTransferServiceApplication in 2.757 seconds (process running for 3.748)
+25.07.2023 19:19:10.884 [RMI TCP Connection(3)-192.168.1.4] INFO   o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25.07.2023 19:19:10.885 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25.07.2023 19:19:10.925 [RMI TCP Connection(3)-192.168.1.4] INFO   o.s.w.s.DispatcherServlet - Completed initialization in 37 ms
+25.07.2023 19:20:51.899 [http-nio-5500-exec-8] INFO   r.p.m.s.TransferService - Успешно проведена операция перевода:  С карты 1111222233334444  На карту 1234567812345678 Сумма операции Amount{value=100, currency='RUR'} Комиссия составила 1
